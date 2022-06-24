@@ -1,3 +1,5 @@
 <h1>Sign-in with Spotify</h1>
 <p>Find me in app/views/siginin.html.erb</p>
+<%= link_to 'Sign in with Spotify', user_spotify_omniauth_authorize_path %>
+
 <%= link_to 'Sign in with Spotify', '/auth/spotify', method: :post %>
